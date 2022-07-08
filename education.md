@@ -24,5 +24,6 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: cv
+url: /education
 ---
 ## B.Sc
