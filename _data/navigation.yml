@@ -6,14 +6,3 @@ header:
         
       # @end locale config
     url: /blog.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       Education
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-    
-      # @end locale config
-    url: /education.html
