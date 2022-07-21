@@ -12,4 +12,4 @@ I'm currently a first year PhD student, part of the [IIT Kharagpur Math-Crypto G
 
 
 
-   Before starting my PhD, I'm doing MSc in Mathematics from [Ramakrishna Mission Vivekananda Educational and Research Institute](http://maths.rkmvu.ac.in/), specialising on [Algebraic Combinatorics.](https://en.wikipedia.org/wiki/Algebraic_combinatorics)
+   Before starting my PhD, I was doing MSc in Mathematics from [Ramakrishna Mission Vivekananda Educational and Research Institute](http://maths.rkmvu.ac.in/), specialising on [Algebraic Combinatorics.](https://en.wikipedia.org/wiki/Algebraic_combinatorics)
