@@ -6,3 +6,5 @@ header:
         
       # @end locale config
     url: /blog.html
+   -title: Subscribe
+   url: /subscribe.html
