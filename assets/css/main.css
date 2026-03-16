@@ -2727,6 +2727,7 @@ input:focus {
   -moz-align-items: center;
   align-items: center;
   border-radius: 50%;
+  border: none;
 }
 
 .button--md, .button--pill, .button--rounded, .button--circle, .swiper__button {
@@ -4880,48 +4881,43 @@ a > .item__header.disabled, a > .item__header:disabled, a.item__header.disabled,
   fill: rgba(255, 255, 255, 0.2) !important;
 }
 .author-links > ul > li > .googlescholar-button {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  width: 30px;
+  height: 30px;
+  border-radius: 90%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
-.author-links > ul > li > .googlescholar-button svg path {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-.author-links > ul > li > .googlescholar-button, .author-links > ul > li > .googlescholar-button:link, .author-links > ul > li > .googlescholar-button:visited {
-  color: #fff;
-  background-color: #0072c5;
-}
-.author-links > ul > li > .googlescholar-button svg path, .author-links > ul > li > .googlescholar-button:link svg path, .author-links > ul > li > .googlescholar-button:visited svg path {
-  fill: #fff;
-}
-.root[data-is-touch=false] .author-links > ul > li > .googlescholar-button:hover {
-  color: #fff;
-  background-color: rgb(0, 72.6822335025, 125.6);
-}
-.root[data-is-touch=false] .author-links > ul > li > .googlescholar-button:hover svg path {
-  fill: #fff;
-}
-.root[data-is-touch] .author-links > ul > li > .googlescholar-button.active, .root[data-is-touch] .author-links > ul > li > .googlescholar-button:active {
-  color: #fff;
-  background-color: rgb(0, 28.4131979695, 49.1);
-}
-.root[data-is-touch] .author-links > ul > li > .googlescholar-button.active svg path, .root[data-is-touch] .author-links > ul > li > .googlescholar-button:active svg path {
-  fill: #fff;
-}
-.root[data-is-touch] .author-links > ul > li > .googlescholar-button.focus {
-  color: default;
-  background-color: rgb(0, 72.6822335025, 125.6);
-  box-shadow: 0 0 0 2px rgba(0, 72.6822335025, 125.6, 0.4);
-}
-.root[data-is-touch] .author-links > ul > li > .googlescholar-button.focus svg path {
-  fill: default;
-}
-.author-links > ul > li > .googlescholar-button.disabled, .author-links > ul > li > .googlescholar-button:disabled {
-  color: rgba(255, 255, 255, 0.2) !important;
-  background-color: #0072c5 !important;
-}
-.author-links > ul > li > .googlescholar-button.disabled svg path, .author-links > ul > li > .googlescholar-button:disabled svg path {
-  fill: rgba(255, 255, 255, 0.2) !important;
+.author-links > ul > li > .dblp-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 90%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: transform 0.1s ease, background-color 0.1s ease;
 }
 .author-links > ul > li > .facebook-button {
   -webkit-transition: all 0.2s ease-in-out;
